@@ -6,7 +6,8 @@
 
 .experience__container > div {
   background: var(--color-bg-varient);
-  padding: 2.4rem 5rem;
+  /*  padding: 2.4rem 5rem;  */
+  padding: 2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -60,7 +61,7 @@
   }
   .experience__container > div {
     width: 100%;
-    /* padding: 2rem 0.5rem; */
+    /* padding: 1rem 0.2rem; */
     padding: 0%;
   }
 }

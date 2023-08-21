@@ -4,7 +4,7 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
@@ -19,16 +19,16 @@ const data = [
     id: 2,
     Image: IMG2,
     title: "Food Services frontend Webapp",
-    github: "https://pradyumna-1.github.io/Doge_Food_Services/",
-    demo: "https://dribbble.com/shots/16691825-Food-Delivery-Web-Landing-Page-Design/attachments/11731683?mode=media",
+    github: "https://github.com/Pradyumna-1/mini-resturant",
+    demo: "https://mini-resturant.onrender.com/",
   },
 
   {
     id: 3,
     Image: IMG3,
-    title: "Figma dashboard UI kit for data designn web apps",
-    github: "https://github.com",
-    demo: "https://cdn.dribbble.com/userupload/3936864/file/original-f447eab50ca75b833d7e5834fbd229aa.png?compress=1&resize=752x",
+    title: "Covid-19 API Update State Wise available ",
+    github: "https://github.com/Pradyumna-1/covidapi",
+    demo: "https://covid19api-w4oa.onrender.com/",
   },
 
   {
@@ -36,23 +36,23 @@ const data = [
     Image: IMG4,
     title: " Responsive Drumkit music system for entertainment ",
     github: "https://github.com/Pradyumna-1/Drum-Kit-",
-    demo:"https://dribbble.com/shots/7269232-Holo-Music-2-0/attachments/223592?mode=media",
+    demo: "https://pradyumna-1.github.io/Drum-Kit-/",
   },
 
   {
     id: 5,
     Image: IMG5,
-    title: "South Indian Hindi dubbed movies.",
-    github: "https://github.com",
-    demo: "https://cdn.dribbble.com/userupload/3232614/file/original-6b11cbb03d2fe31957fa7952698c2e9d.jpg?compress=1&resize=752x",
+    title: "Netflix all time Watch top 10 Series List",
+    github: "https://netflixtop5serieslist.netlify.app/",
+    demo: "https://netflixtop5serieslist.netlify.app/",
   },
 
   {
     id: 6,
     Image: IMG6,
-    title: "Doctor's Search UI kit for patient in figma",
-    github: "https://github.com",
-    demo: "https://cdn.dribbble.com/userupload/3357779/file/original-0a63a54332be3c3dbb70bfe8a0d4e792.png?compress=1&resize=752x",
+    title: "Dogesh Online Food Delivery Services",
+    github: "https://github.com/Pradyumna-1/Doge_Food_Services",
+    demo: "https://pradyumna-1.github.io/Doge_Food_Services/",
   },
 ];
 
@@ -60,7 +60,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work </h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio_container">
         {data.map(({ id, Image, title, github, demo }) => {
@@ -72,11 +72,11 @@ const Portfolio = () => {
 
               <h3>{title}</h3>
               <div className="portfolio_item-cta">
-                <a href={github} className="btn" target="_blanck">
+                <a href={github} className="btn" target="_blank">
                   GitHub
                 </a>
                 <a href={demo} className="btn btn-primary" target="_blank">
-                  Live Demo{" "}
+                  Live Demo
                 </a>
               </div>
             </article>
